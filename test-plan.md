@@ -74,6 +74,8 @@ The scope of testing includes functional testing, usability testing, performance
 | TC004       | Handle empty input | Leave input field blank | Displays validation error | | |
 | TC005       | Convert large number | Enter a large number (e.g., 999999) | "Nine hundred and ninety nine thousand nine hundred and ninety nine dollars" | | |
 | TC006       | Cross-browser testing | Open site on Chrome, Firefox, Safari | Site functions correctly | | |
+| TC007       | Verify that 0 returns correctly | Enter 0 as number | "Zero Dollars" | | |
+| TC008       | Verify that cents returns correctly | Enter 12.4 as number | "Twelve Dollars and Forty Cents" | | |
 
 ## 7. **Risks**
 - Misinterpretation of decimal formats.
